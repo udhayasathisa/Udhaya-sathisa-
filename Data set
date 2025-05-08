@@ -1,0 +1,32 @@
+. Customer Support Chat Logs
+These contain real or simulated interactions between customers and support agents:
+
+Customer Support on Twitter Dataset (Kaggle): Tweets directed at brands for support, with responses.
+
+Ubuntu Dialogue Corpus: Large dataset of technical support conversations in a multi-turn dialog format.
+
+DSTC (Dialog State Tracking Challenge) Datasets: Dialogues with annotated intents and slots for dialog systems.
+
+2. Intent Classification Datasets
+Useful if your chatbot needs to classify customer intents:
+
+Banking77: Customer queries to a banking chatbot, labeled with intents.
+
+CLINC150: 150 diverse intents covering multiple domains, great for multi-intent chatbots.
+
+3. FAQ and Knowledge Base Datasets
+For retrieval-based chatbots answering FAQ-style questions:
+
+FAQ Question-Answer Pairs (Quora, StackExchange, etc.): Many can be scraped or are available in open datasets.
+
+WikiQA: A question-answer dataset based on Wikipedia.
+
+4. Custom or Company-Specific Data
+If you're building for a specific company/industry, you may need:
+
+Historical email/chat logs
+
+CRM ticket data
+
+FAQ manuals
+(These may need anonymization for privacy compliance.)
