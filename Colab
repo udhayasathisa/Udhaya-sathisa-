@@ -1,0 +1,22 @@
+# Import required libraries
+from transformers import pipeline
+
+# Initialize chatbot pipeline using a pre-trained model
+chatbot = pipeline('conversational', model='facebook/blenderbot-400M-distill')
+
+def start_chat():
+    print("Intelligent Customer Support Chatbot (type 'exit' to end)\n")
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() in ['exit', 'quit']:
+            print("Chatbot: Thank you for contacting support. Have a great day!")
+            break
+        
+        # Generate chatbot response
+        response = chatbot(user_input)
+        
+        # Print chatbot response
+        print("Chatbot:", response[0]['generated_text'])
+
+if __name__ == "__main__":
+    start_chat()
